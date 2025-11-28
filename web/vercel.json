@@ -1,0 +1,21 @@
+{
+<<<<<<< HEAD
+  "env": {
+    "CSS_TRANSFORMER_WASM": "1"
+  },
+  "build": {
+    "env": {
+      "CSS_TRANSFORMER_WASM": "1"
+    }
+  },
+  "installCommand": "npm install"
+=======
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "installCommand": "npm install --legacy-peer-deps",
+  "env": {
+    "NODE_OPTIONS": "--max_old_space_size=4096",
+    "NEXT_BUILD_BUNDLER": "webpack"
+  }
+>>>>>>> bad6130af101019355316f82819031bc2578bb17
+}

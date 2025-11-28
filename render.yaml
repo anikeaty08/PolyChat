@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: polychat
+    env: node
+    plan: free
+    root: web
+    build:
+      command: npm ci && npm run build
+    start: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
